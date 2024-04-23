@@ -10,3 +10,7 @@
 
 wrong = False
 right = True
+
+do_two_wrongs_make_right = (not(wrong and wrong)) or (right and wrong)# Combine with logical operators
+
+print(do_two_wrongs_make_right)

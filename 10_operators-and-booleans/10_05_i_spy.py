@@ -11,3 +11,10 @@ lying in Santa Clara County, California, with the terms of this license is also 
 the GFDL. In other words, you may distribute a Derived Work unless that component clearly 
 states in the page you re-use, you must (i) comply with Section 3C, to characterization of the 
 Base Interpreter, then, wherever this component of the Covered Code."""
+
+member = 'spy' in terms_of_service
+
+if member == True:
+    print('The TOS are trying to spy on me')
+else:
+    print('The TOS are not trying to spy on me')
